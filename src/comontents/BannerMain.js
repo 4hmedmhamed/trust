@@ -13,7 +13,7 @@ function BannerMain() {
           <div className='col-md-6'>
             <div className='text-center'>
               <h1 className='title-banner-main '>شركة Trust AD   </h1>
-              <h2 className='title-banner-about'>
+              <h2 className=''>
                 
               شركة متخصصة في تقديم مختلف خدمات التسويق الإلكتروني والميديا برودكشن وإنتاج الكورسات الإعلامية.
 
