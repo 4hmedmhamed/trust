@@ -35,9 +35,9 @@ function Footer() {
                         </p>
                     </div>
                     <div className='col-md-2'>
-                        <div className='   mt-1  ' >
+                        <div className='   mt-1  text-center ' >
                             <div className='title-footer-bar'>
-                                <Link className='title-nav-bar mx-2 ' href="/">الراسية</Link>
+                                <Link className='title-nav-bar mx-2 ' href="/">الرئيسية</Link>
                             </div>
                             <div className='title-footer-bar'>
                                 <Link className='title-nav-bar mx-2 ' href="/about">من نحن</Link>

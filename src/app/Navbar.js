@@ -54,7 +54,7 @@ function OffCanvasExample({ name, ...props }) {
                 <Offcanvas.Body className=' text-canter w-100'>
                 <div className='  text-center  mt-1  ' >
                             <div  className='item-slider-bar'>
-                                <Link className='title-nav-bar mx-2 ' href="/">الراسية</Link>
+                                <Link className='title-nav-bar mx-2 ' href="/">الرئيسية</Link>
                             </div>
                             <div  className='item-slider-bar'>
                                 <Link className='title-nav-bar mx-2 ' href="/about">من نحن</Link>
@@ -233,7 +233,7 @@ function Navbar() {
 
                             
                             <div >
-                                <Link className='title-nav-bar mx-2' href="/">الراسية</Link>
+                                <Link className='title-nav-bar mx-2' href="/">الرئيسية</Link>
                             </div>
                             <div className='d-block'>
                                 <Link className='title-nav-bar mx-2' href="/about">من نحن</Link>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Slove from "../../public/assit/media/solve.png"
-import Amazin from "../../public/assit/media/amazin.jpeg"
+import Price from "../../public/assit/Mainpage/price.png"
 import Time from "../../public/assit/Mainpage/time.jpg"
 import Made from "../../public/assit/Mainpage/made.jpg"
 import innovate from "../../public/assit/Mainpage/innovate.jpg"
@@ -18,18 +18,13 @@ import design_G from "../../public/assit/aboerd/design_G.png"
 import corss from "../../public/assit/aboerd/corss.png"
 import advance from "../../public/assit/aboerd/advance.png"
 
-import hand from "../../public/assit/meber/hand.jpg"
-import alnel from "../../public/assit/meber/alnel.jpg"
-import alqahra from "../../public/assit/meber/alqahra.jpg"
-import alspha from "../../public/assit/meber/alspha.jpg"
-import astampol from "../../public/assit/meber/astampol.jpg"
-import moham from "../../public/assit/meber/moham.jpg"
+
 import { Container } from 'react-bootstrap'
 import Link from 'next/link'
 function Mainpage() {
   return (
     <>
-      <div style={{ backgroundColor: "#f6f6f6" , height:"100" }}>
+      <div style={{ backgroundColor: "#f6f6f6", height: "100" }}>
         <Container>
           <section style={{ backgroundColor: "#f6f6f6" }}>
             <br></br>
@@ -126,6 +121,27 @@ function Mainpage() {
 
               </div>
 
+
+              <div className='col-md-4 mt-3'>
+                <div className=''>
+                  <Image
+                    src={Price}
+                    width={300}
+                    height={200}
+                  />
+                  <div className='mt-1'>
+                    <h3 className='text-primary ' >
+                      أسعار تنافسية
+                    </h3>
+                    <p className='fs-5  text-muted '>
+                      نجحنا بفضل الله في تقديم أعلى جودة من الخدمات التسويقية وبأسعار تناسب مختلف احتياجات العملاء إضافة لحرصنا على عمل عروض حصرية لعملاءنا المميزين
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
 
 
@@ -157,7 +173,7 @@ function Mainpage() {
 
                 </div>
                 <div className='servec-main-buttom d-flex justify-content-center'>
-                  <Link href="/"  className='servec-main-link' >عرض خدمتنا </Link>
+                  <Link href="/" className='servec-main-link' >عرض خدمتنا </Link>
                 </div>
               </div>
 
@@ -180,7 +196,7 @@ function Mainpage() {
 
                 </div>
                 <div className='servec-main-buttom d-flex justify-content-center'>
-                  <Link href="./SEO"  className='servec-main-link' >5عرض خدمتنا </Link>
+                  <Link href="./SEO" className='servec-main-link' >5عرض خدمتنا </Link>
                 </div>
               </div>
 
@@ -229,7 +245,7 @@ function Mainpage() {
 
                 </div>
                 <div className='servec-main-buttom d-flex justify-content-center'>
-                  <Link href="/SocialMedia"  className='servec-main-link'>عرض خدمتنا </Link>
+                  <Link href="/SocialMedia" className='servec-main-link'>عرض خدمتنا </Link>
                 </div>
               </div>
 
@@ -278,7 +294,7 @@ function Mainpage() {
                   </p>
                 </div>
                 <div className='servec-main-buttom d-flex justify-content-center'>
-                  <Link href="/courses"  className='servec-main-link'>عرض خدمتنا </Link>
+                  <Link href="/courses" className='servec-main-link'>عرض خدمتنا </Link>
                 </div>
               </div>
 
@@ -301,7 +317,7 @@ function Mainpage() {
 
                 </div>
                 <div className='servec-main-buttom d-flex justify-content-center'>
-                  <Link href="/Videomaking"  className='servec-main-link' >عرض خدمتنا </Link>
+                  <Link href="/Videomaking" className='servec-main-link' >عرض خدمتنا </Link>
                 </div>
               </div>
 
@@ -335,7 +351,7 @@ function Mainpage() {
           <br></br>
         </section>
       </Container>
-      
+
 
     </>
   )
