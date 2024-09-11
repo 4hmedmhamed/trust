@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 function page() {
   return (
     <div>
-    <div><Banner></Banner></div>
+    
     <Container>
 
   

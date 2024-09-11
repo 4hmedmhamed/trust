@@ -252,3 +252,9 @@ a {
   height: 150px;
   border-radius: 20px;
 }
+
+.item-why-us{
+  border:  1px dashed  rgb(0, 4, 255);
+  border-radius:20px ;
+  background-color: #f4f6fd;
+}

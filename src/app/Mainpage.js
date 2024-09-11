@@ -30,16 +30,19 @@ function Mainpage() {
             <br></br>
             <h2 className='text-center'>لماذا يجب أن تكون شركتنا إختيارك الأول؟</h2>
             <div className='row text-center'>
-              <div className='col-md-4 mt-3'>
-                <div className=''>
+              <div className='col-md-4 mt-3 '>
+                <div className=' item-why-us m-2' >
                   <Image
                     src={understand}
-                    width={400}
+                    width={350}
                     height={200}
+                    
                   />
                   <div className='mt-1'>
                     <h3 className='text-primary '>فهم ودراسة نشاطك التجاري</h3>
-                    <p className='fs-5  text-muted '>نسعى جاهدين لفهم أهدافك واحتياجاتك عبر استلام برييف شامل كافة الاستفسارات والأسئلة عن مجالك ومنتجاتك/خدماتك المقدمة ومن ثم وضع تصور مناسب للحملة التسويقية المناسبة لك.</p>
+                    <p className='fs-5  text-muted '>
+                    نسعى جاهدين لفهم أهدافك واحتياجاتك ثم نقوم بوضع تصور مناسب للحملة التسويقية المناسبة لك.
+                      </p>
                   </div>
 
                 </div>
@@ -47,15 +50,18 @@ function Mainpage() {
               </div>
 
               <div className='col-md-4 mt-3'>
-                <div className=''>
+                <div className=' item-why-us m-2'>
                   <Image
                     src={eim}
-                    width={400}
+                    width={350}
                     height={200}
                   />
                   <div className='mt-1'>
                     <h3 className='text-primary '>إختيار الخدمات المناسبة لك</h3>
-                    <p className='fs-5  text-muted '>لدينا مصداقية ووضوح في اختيار الخدمات التي يحتاجها نشاطك التجاري وتسهم في إنجاح عملك وتحقيق أهدافك التسويقية.</p>
+                    <p className='fs-5  text-muted '>
+                    لدينا مصداقية ووضوح في اختيار الخدمات التي يحتاجها نشاطك التجاري وتسهم في إنجاح عملك وتحقيق أهدافك التسويقية
+             
+                      </p>
                   </div>
 
                 </div>
@@ -64,18 +70,16 @@ function Mainpage() {
 
 
               <div className='col-md-4 mt-3'>
-                <div className=''>
+                <div className='item-why-us m-2'>
                   <Image
                     src={innovate}
-                    width={400}
+                    width={350}
                     height={200}
                   />
                   <div className='mt-1'>
                     <h3 className='text-primary ' >   نبتكر تصاميم جذابة </h3>
                     <p className='fs-5  text-muted '>
-                      نمتلك رؤية إبداعية في ابتكار وتنفيذ مختلف أشكال التصاميم الجذابة التي تحمل أفكار غير تقليدية و تتضمن هوية بصرية معبرة عن نشاطك التجاري ،وتستطيع من خلالها الوصول لعملائك المستهدفين.
-
-
+                    نمتلك رؤية إبداعية في ابتكار وتنفيذ مختلف أشكال التصاميم الجذابة التي تعبر عن نشاطك التجاري ، وتستطيع من خلالها الوصول لعملائك .
                     </p>
                   </div>
 
@@ -83,10 +87,10 @@ function Mainpage() {
 
               </div>
               <div className='col-md-4 mt-3'>
-                <div className=''>
+                <div className='item-why-us m-2'>
                   <Image
                     src={Made}
-                    width={400}
+                    width={350}
                     height={200}
                   />
                   <div className='mt-1'>
@@ -94,7 +98,7 @@ function Mainpage() {
                       نصنع محتوى مناسب لعميلك
                     </h3>
                     <p className='fs-5  text-muted '>
-                      متخصصون في عمل استراتيجيات محتوى احترافية تتضمن البنية التأسيسية للحملة التسويقية إضافة إلى ذكر مختلف أنواع وأشكال المحتوى التسويقي المعبرة عن احتياجات ومشكلات عميلك مع إضافة أهم الأفكار والمقترحات التي تسهم في التسويق لنشاطك التجاري والترويج لنقاط قوة منتجاتك وخدماتك.
+                    متخصصون في عمل استراتيجيات محتوى احترافية تتضمن أهم الأفكار والخطوات و الحلول التي تسهم في التسويق لنشاطك التجاري.
                     </p>
                   </div>
 
@@ -103,10 +107,10 @@ function Mainpage() {
               </div>
 
               <div className='col-md-4 mt-3'>
-                <div className=''>
+                <div className='item-why-us m-2'>
                   <Image
                     src={Time}
-                    width={400}
+                    width={350}
                     height={200}
                   />
                   <div className='mt-1'>
@@ -114,8 +118,11 @@ function Mainpage() {
                       الإلتزام بالمواعيد
                     </h3>
                     <p className='fs-5  text-muted '>
-                      نضع خطط زمنية واقعية لمختلف الخدمات التي نقدمها لعملاءنا إضافة إلى عمل تقارير أداء دورية بنتائج الحملات التسويقية وإرسالها للعميل ومناقشته فيها وكل هذا يتم وفق جدول زمني محدد يلتزم به كلا الطرفين.                </p>
-                  </div>
+
+                    نضع خطط وتقارير أداء دورية لمختلف الخدمات التي نقدمها لعملاءنا وفق جدول زمني محدد يلتزم به كلا الطرفين.
+
+    </p>
+                   </div>
 
                 </div>
 
@@ -123,7 +130,7 @@ function Mainpage() {
 
 
               <div className='col-md-4 mt-3'>
-                <div className=''>
+                <div className='item-why-us m-2'>
                   <Image
                     src={Price}
                     width={300}
@@ -134,8 +141,8 @@ function Mainpage() {
                       أسعار تنافسية
                     </h3>
                     <p className='fs-5  text-muted '>
-                      نجحنا بفضل الله في تقديم أعلى جودة من الخدمات التسويقية وبأسعار تناسب مختلف احتياجات العملاء إضافة لحرصنا على عمل عروض حصرية لعملاءنا المميزين
-                    </p>
+                    نجحنا بفضل الله في تقديم أعلى جودة من الخدمات التسويقية وبأسعار تناسب مختلف احتياجات العملاء  عمل عروض  لعملاءنا المميزين.       
+                                 </p>
                   </div>
 
                 </div>
@@ -165,10 +172,10 @@ function Mainpage() {
                 />
                 <div className='mt-1 text-center '>
                   <h3>
-                    الهوية البصرية للشركات
+                  تصميم وإستضافة المواقع
                   </h3>
                   <p className='fs-5 text-muted '>
-                    إدارة الحملات التسويقية اكتسبنا ريادتنا من قدرتنا على إدارة الحملات التسويقية عبر مواقع التواصل الإجتماعي..
+                  يعد تصميم وإستضافة المواقع الإلكترونية من أهم وسائل تفوق الشركات في جميع الأنشطة التجارية
                   </p>
 
                 </div>
@@ -237,11 +244,11 @@ function Mainpage() {
                   height={200}
                 />
                 <div className='mt-1 text-center '>
-                  <h3 className='fs-4' style={{ fontWeight: "800" }}>
+                  <h3 className='fs-5' style={{ fontWeight: "700" }}>
                     إدارة منصات التواصل الاجتماعي
                   </h3>
                   <p className='fs-5 text-muted '>
-                    نقدم إدارة احترافية لمنصات التواصل الاجتماعي تشمل تأسيس الصفحات وإثرائها بكافة المعلومات  عن المجال وإدارتها                     </p>
+                    نقدم إدارة احترافية لمنصات التواصل الاجتماعي تشمل تأسيس الصفحات وإثرائها بكافة المعلومات   وإدارتها                     </p>
 
                 </div>
                 <div className='servec-main-buttom d-flex justify-content-center'>

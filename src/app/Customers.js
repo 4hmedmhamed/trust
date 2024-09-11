@@ -53,7 +53,7 @@ function Customers() {
                 </div>
                 <div className='mt-1 text-center '>
                   <h3 className='fs-2'>
-                  <Link href={'https://www.facebook.com/share/UERd3t9eA2AHM9KK/?mibextid=qi2Omg'} >
+                  <Link href={'https://www.facebook.com/elsafa.center1'} >
                   مركز الصفا</Link>
                   </h3>
                 </div>
