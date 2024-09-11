@@ -258,3 +258,8 @@ a {
   border-radius:20px ;
   background-color: #f4f6fd;
 }
+.item-why-about{
+  border:  1px dashed  rgb(0, 4, 255);
+  border-radius:20px ;
+  /* background-color: #f4f6fd; */
+}
